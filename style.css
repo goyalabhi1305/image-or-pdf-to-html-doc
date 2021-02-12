@@ -3,6 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .banner{
+    /* margin-bottom:300px; */background-size: cover;
     height:100vh;
     width: 100%;
     padding: 50px 100px;
@@ -169,11 +170,24 @@ footer{
 .panel_mid{
     height:800px;
     width: 100%;
-    /* margin-bottom:300px; */
+    /* margin-bottom:300px; */background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./img/Group 1815.png');
     display: block;
 }
 img.pnl_mid{
     margin-left:-55px;
+}
+.ftr{   
+    background: url('./img/Group 1817.png') no-repeat;
+    width: 450px;
+    display: flex;
+    height: 160px;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+.ftr > p.ttl{
+    float: right;
+    margin-right: -150px;
 }
